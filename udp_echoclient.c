@@ -24,7 +24,7 @@ void __udp_echoclient_connect_oo(void){
 	upcb->local_port = 62510;
 
 	if(dest_status == 1){
-//		PC IP1
+//		PC IP1 bu alan yeni eklendi
 		IP4_ADDR(&DestIPaddr, 10, 10, 2, 1);
 		port_oo = 6661;
 	}else{
